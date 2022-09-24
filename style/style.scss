@@ -1,0 +1,18 @@
+.virtual-scroll-area{
+  .outer-scroll-content{
+    width: 500px;
+    height: 1000px;
+    overflow-y: scroll;
+    border:1px solid gray;
+    .inner-scroll-content{
+      .items{
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        .item{
+          display: none;
+        }
+      }
+    }
+  }
+}
